@@ -10,19 +10,23 @@
 </head>
 
 <body>
+    <a href="#recipeSection" class="skipLink">Skip to the main content.</a>
     <header>
         <div class="nav">
             <h1>Delicious</h1>
             <nav class="navContainer">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#ourRestaruants">About</a></li>
+                    <li><a href="#recipeSection">Recipes</a></li>
                     <li><a href="#">Nutrition</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Shop</a></li>
                     <li><a href="#">Contact</a></li>
                     <li><i class="fa-solid fa-bag-shopping"></i></li>
+                    <li class="counter">
+                        <p class="smallCopy">2</p>
+                    </li>
                     <li><i class="fa-solid fa-magnifying-glass"></i></li>
                 </ul>
             </nav>
@@ -30,7 +34,7 @@
     </header>
 
     <body>
-        <section class="recipeSection">
+        <section id="recipeSection"class="recipeSection">
             <div class="recipeContainer">
                 <div class="recipe recipe1">
                     <h2>Most Popular Recipes</h2>
@@ -91,7 +95,7 @@
             </div>
         </section>
 
-        <section class="ourRestaruants">
+        <section id="ourRestaruants" class="ourRestaruants">
             <div class="imgContainer">
                 <img src="./assets/home-4.jpeg" alt="a space full of orange chairs and tables">
                 <img src="./assets/home-circle-text.png" alt="a circle image showing: Yummm a fancy food place text. ">
@@ -101,6 +105,18 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, reiciendis nemo dolor neque laudantium minima atque facere aperiam fuga, sapiente dolorem vitae vel exercitationem!</p>
         </section>
 
+        <section class="gallery">
+            <ul class="galleryContainer">
+                <li><img src="./assets/home-5.jpeg" alt="a plate of beautiful food"></li>
+                <li><img src="./assets/home-6.jpeg" alt="an elegant small burger"></li>
+                <li><img src="./assets/home-7.jpeg" alt="close look of red onions"></li>
+                <li><img src="./assets/home-8.jpeg" alt="a pretty pink sponge cake"></li>
+                <li><img src="./assets/home-9.jpeg" alt="some blueberry cookies"></li>
+                <li><img src="./assets/home-10.jpeg" alt="a bowl of greek yogurt"></li>
+            </ul>
+
+
+        </section>
     </body>
 </body>
 </html>
