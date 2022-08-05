@@ -1,0 +1,27 @@
+.wrapper {
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+text-decoration: none;   
+}
+
+img {
+    
+    display: inline-block;
+}
+
+button {
+    background-color: $tertiary;
+    border: none;
+    padding: 15px 30px;
+    color:$solidWhite;
+}

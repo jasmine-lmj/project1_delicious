@@ -1,0 +1,32 @@
+html {
+    font-size:125%;
+}
+
+body{
+    font-family: $secondaryFont;
+    font-size:14px;
+    letter-spacing: 0.3px;
+}
+
+h1,
+h2,
+h3,
+h4,
+a,
+button{
+    font-family: $primaryFont;
+    text-transform: uppercase;
+    color:$primary;
+    
+}
+
+h1,
+h2,
+h3,
+h4{
+margin: 0;
+}
+
+p{
+    color:$secondary;
+}
