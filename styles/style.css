@@ -253,25 +253,55 @@ template {
   overflow: hidden;
 }
 
-.skipLink {
-  background-color: white;
-  color: black;
-  font-size: 1rem;
-  padding: 10px 0;
-  position: absolute;
-  left: -1000px;
-  top: 0;
-  z-index: 999;
-}
-.skipLink:focus {
-  left: 0;
-  right: 0;
-  text-align: center;
-}
-
 header {
   margin-top: 0;
   background-image: url("../assets/home-1.jpeg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .nav {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .nav h1 {
+  margin-left: 30px;
+}
+header .nav .navContainer {
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+header .nav .navContainer .counter {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: #74B72E;
+  font-family: "Raleway", sans-serif;
+  font-size: 8px;
+  text-align: center;
+  color: #f6f6f6;
+  position: absolute;
+  right: 73px;
+  top: 7px;
+}
+header .nav .home {
+  color: #74B72E;
 }
 
 html {
