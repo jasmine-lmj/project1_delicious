@@ -308,7 +308,7 @@ a {
 }
 
 img {
-  display: inline-block;
+  display: block;
 }
 
 button {
@@ -316,6 +316,12 @@ button {
   border: none;
   padding: 15px 30px;
   color: #f6f6f6;
+}
+
+hr {
+  border-style: none;
+  border-bottom: 3px solid #74B72E;
+  width: 2.2rem;
 }
 
 header {
@@ -350,6 +356,8 @@ header .nav .navContainer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+header .nav .navContainer .counterParent {
   position: relative;
 }
 header .nav .navContainer .counter {
@@ -362,7 +370,7 @@ header .nav .navContainer .counter {
   text-align: center;
   color: #f6f6f6;
   position: absolute;
-  right: 73px;
+  right: -8px;
   top: 7px;
 }
 header .nav .home {
@@ -404,7 +412,6 @@ header .nav .home {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 3px solid #74B72E;
 }
 .recipeContainer .recipe1 p {
   width: 60%;
@@ -451,4 +458,32 @@ header .nav .home {
 .recipeContainer .recipe4 .itemContainer .itemIcon {
   font-size: 1.1rem;
   padding-right: 20px;
+}
+
+.ourRestaurants {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 100px;
+}
+.ourRestaurants .wrapper {
+  max-width: 1280px;
+  width: 80%;
+  margin: 0 auto;
+}
+.ourRestaurants p {
+  width: 50%;
+  text-align: center;
 }

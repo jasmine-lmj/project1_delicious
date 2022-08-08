@@ -16,7 +16,7 @@ a{
 
 img {
     
-    display: inline-block;
+    display: block;
 }
 
 button {
@@ -24,4 +24,10 @@ button {
     border: none;
     padding: 15px 30px;
     color:$solidWhite;
+}
+
+hr {
+    border-style: none;
+    border-bottom: 3px solid $tertiary;
+    width: 2.2rem;
 }
