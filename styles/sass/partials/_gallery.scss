@@ -1,12 +1,16 @@
-.galleryContainer{
-    display:flex;
-    flex-wrap: wrap;
+.gallery{
+    padding-bottom: 0;
 
-    li {
-        width:calc(100% / 3);
-        
-        img{
-            width:100%;
+    .galleryContainer{
+        display:flex;
+        flex-wrap: wrap;
+
+        li {
+            width:calc(100% / 3);
+            
+            img{
+                width:100%;
+            }
         }
     }
 }

@@ -1,0 +1,46 @@
+.clientReview{
+    background-color: #D3EEAC;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 0;
+
+    .wrapper{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        .fa-quote-left,
+        .fa-quote-right {
+            color: rgba($solidWhite, 0.8);
+            font-size:2rem;
+        }
+        p{
+            width:60%;
+            text-align: center;
+            margin:0 auto;
+            color:$primary;
+        }
+    }
+
+    .angleContainer{
+        display:flex;
+        width:1.8rem;
+        justify-content: space-between;
+        padding-top:30px;
+
+        .fa-angle-left,
+        .fa-angle-right{
+            font-size:1em;
+        }
+        
+        .fa-angle-right{
+            color: $solidWhite;
+        }
+
+        .fa-angle-left{
+            color:rgba($solidWhite,0.8);
+        }
+
+    }
+}
