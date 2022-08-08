@@ -1,0 +1,13 @@
+.galleryContainer{
+    display:flex;
+    flex-wrap: wrap;
+
+    li {
+        width:calc(100% / 3);
+        
+        img{
+            width:100%;
+        }
+    }
+}
+
