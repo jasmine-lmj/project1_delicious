@@ -1,0 +1,29 @@
+footer{
+    background-color: $primary;
+
+    .wrapper{
+        display:flex;
+        justify-content: space-between;
+        padding-top: 70px;
+        padding-bottom: 70px;
+
+        h1 {
+            color:$tertiary;
+        }
+
+        h4{
+            color:$solidWhite;
+        }
+        .footerContainer{
+            width:calc(100% / 3);
+        }
+
+        .footerdivider{
+            border:0.7px solid $secondary;
+            width:22rem;
+        }
+
+    }
+
+
+}

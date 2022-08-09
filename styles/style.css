@@ -570,3 +570,30 @@ header .nav .home {
 .clientReview .angleContainer .fa-angle-left {
   color: rgba(246, 246, 246, 0.8);
 }
+
+footer {
+  background-color: #2e2e2e;
+}
+footer .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+footer .wrapper h1 {
+  color: #74B72E;
+}
+footer .wrapper h4 {
+  color: #f6f6f6;
+}
+footer .wrapper .footerContainer {
+  width: 33.3333333333%;
+}
+footer .wrapper .footerdivider {
+  border: 0.7px solid rgba(153, 153, 153, 0.7);
+  width: 22rem;
+}
