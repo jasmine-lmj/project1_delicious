@@ -1,5 +1,5 @@
 .clientReview{
-    background-color: #D3EEAC;
+    background-color:#DDED9A;
     padding-top: 100px;
     padding-bottom: 100px;
     margin-top: 0;
@@ -9,11 +9,26 @@
         flex-direction: column;
         align-items: center;
 
+        .clientContent{
+            position:relative;
+        }
 
         .fa-quote-left,
         .fa-quote-right {
             color: rgba($solidWhite, 0.8);
             font-size:2rem;
+        }
+
+        .fa-quote-left{
+            position:absolute;
+            left:5rem;
+            top:-1rem;
+
+        }
+        .fa-quote-right {
+            position: absolute;
+            right:5rem;
+            bottom:-1rem;
         }
         p{
             width:60%;

@@ -312,7 +312,7 @@ img {
 }
 
 button {
-  background-color: #74B72E;
+  background-color: #64A604;
   border: none;
   padding: 15px 30px;
   color: #f6f6f6;
@@ -320,7 +320,7 @@ button {
 
 hr {
   border-style: none;
-  border-bottom: 3px solid #74B72E;
+  border-bottom: 3px solid #64A604;
   width: 2.2rem;
 }
 
@@ -368,7 +368,7 @@ header .nav .navContainer .counter {
   width: 11px;
   height: 11px;
   border-radius: 50%;
-  background-color: #74B72E;
+  background-color: #64A604;
   font-family: "Raleway", sans-serif;
   font-size: 8px;
   text-align: center;
@@ -378,7 +378,7 @@ header .nav .navContainer .counter {
   top: 7px;
 }
 header .nav .home {
-  color: #74B72E;
+  color: #64A604;
 }
 
 .recipeContainer {
@@ -522,7 +522,7 @@ header .nav .home {
 }
 
 .clientReview {
-  background-color: #D3EEAC;
+  background-color: #DDED9A;
   padding-top: 100px;
   padding-bottom: 100px;
   margin-top: 0;
@@ -539,10 +539,23 @@ header .nav .home {
       -ms-flex-align: center;
           align-items: center;
 }
+.clientReview .wrapper .clientContent {
+  position: relative;
+}
 .clientReview .wrapper .fa-quote-left,
 .clientReview .wrapper .fa-quote-right {
   color: rgba(246, 246, 246, 0.8);
   font-size: 2rem;
+}
+.clientReview .wrapper .fa-quote-left {
+  position: absolute;
+  left: 5rem;
+  top: -1rem;
+}
+.clientReview .wrapper .fa-quote-right {
+  position: absolute;
+  right: 5rem;
+  bottom: -1rem;
 }
 .clientReview .wrapper p {
   width: 60%;
@@ -585,7 +598,7 @@ footer .wrapper {
   padding-bottom: 70px;
 }
 footer .wrapper h1 {
-  color: #74B72E;
+  color: #64A604;
 }
 footer .wrapper h4 {
   color: #f6f6f6;
