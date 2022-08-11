@@ -549,12 +549,12 @@ header .nav .home {
 }
 .clientReview .wrapper .fa-quote-left {
   position: absolute;
-  left: 5rem;
+  left: 9rem;
   top: -1rem;
 }
 .clientReview .wrapper .fa-quote-right {
   position: absolute;
-  right: 5rem;
+  right: 9rem;
   bottom: -1rem;
 }
 .clientReview .wrapper p {
@@ -575,7 +575,7 @@ header .nav .home {
 }
 .clientReview .angleContainer .fa-angle-left,
 .clientReview .angleContainer .fa-angle-right {
-  font-size: 1em;
+  font-size: 1.25em;
 }
 .clientReview .angleContainer .fa-angle-right {
   color: #f6f6f6;
@@ -647,4 +647,5 @@ footer .footerCopyright .wrapper {
 }
 footer .footerCopyright .polar {
   color: #64A604;
+  text-transform: uppercase;
 }
