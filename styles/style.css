@@ -585,7 +585,7 @@ header .nav .home {
 }
 
 footer {
-  background-color: #2e2e2e;
+  background-color: #333;
 }
 footer .wrapper {
   display: -webkit-box;
@@ -596,17 +596,55 @@ footer .wrapper {
           justify-content: space-between;
   padding-top: 70px;
   padding-bottom: 70px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 footer .wrapper h1 {
   color: #64A604;
 }
 footer .wrapper h4 {
   color: #f6f6f6;
+  padding-bottom: 18px;
+}
+footer .wrapper p {
+  line-height: 1.25rem;
 }
 footer .wrapper .footerContainer {
-  width: 33.3333333333%;
+  width: 28%;
 }
 footer .wrapper .footerdivider {
   border: 0.7px solid rgba(153, 153, 153, 0.7);
-  width: 22rem;
+  width: 100%;
+}
+footer .wrapper .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 20px;
+}
+footer .wrapper .form .inputArea {
+  background-color: #535353;
+  border: none;
+  font-family: "Lora", serif;
+  color: rgba(153, 153, 153, 0.7);
+  height: 42px;
+}
+footer .wrapper .form .subscribe {
+  height: 42px;
+  width: 42px;
+  padding: 0;
+}
+footer .wrapper .fa-brands {
+  color: #f6f6f6;
+  padding: 10px;
+}
+footer .footerCopyright {
+  background-color: #2e2e2e;
+}
+footer .footerCopyright .wrapper {
+  padding: 0;
+}
+footer .footerCopyright .polar {
+  color: #64A604;
 }

@@ -1,11 +1,12 @@
 footer{
-    background-color: $primary;
+    background-color: $blacktwo;
 
     .wrapper{
         display:flex;
         justify-content: space-between;
         padding-top: 70px;
         padding-bottom: 70px;
+        align-items: flex-start;
 
         h1 {
             color:$tertiary;
@@ -13,17 +14,57 @@ footer{
 
         h4{
             color:$solidWhite;
+            padding-bottom:18px ;
+        }
+
+        p{
+            line-height: 1.25rem;
+            
         }
         .footerContainer{
-            width:calc(100% / 3);
+            width:28%;
         }
 
         .footerdivider{
             border:0.7px solid $secondary;
-            width:22rem;
+            width:100%;
+        }
+
+        .form{
+            display:flex;
+            padding-bottom: 20px;
+
+            .inputArea{
+                background-color:#535353 ;
+                border:none;
+                font-family: $secondaryFont;
+                color:$secondary;
+                height:42px;
+            }
+
+            .subscribe{
+                height:42px;
+                width:42px;
+                padding: 0;
+            }
+        }
+        .fa-brands{
+            color:$solidWhite;
+            padding:10px;
+        }
+    }
+    .footerCopyright{
+        background-color:$primary ;
+        
+        .wrapper{
+            
+            padding:0;
+        }
+        
+        .polar{
+            color:$tertiary;
         }
 
     }
-
 
 }
