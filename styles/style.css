@@ -267,6 +267,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 a,
 button {
   font-family: "Raleway", sans-serif;
@@ -475,7 +476,7 @@ header .nav .home {
   display: flex;
 }
 
-.contactContainer {
+.contactLeftColumn {
   width: 60%;
   padding-top: 20px;
   padding-bottom: 30px;
@@ -550,6 +551,38 @@ header .nav .home {
 .contactRightColumn {
   width: 40%;
   background-color: #F6F6F6;
+  font-family: "Lora", serif;
+}
+
+.contactBoxRight {
+  padding-left: 30px;
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 60%;
+}
+.contactBoxRight h3 {
+  padding-bottom: 10px;
+}
+
+.contactDetails {
+  padding-bottom: 20px;
+}
+.contactDetails p {
+  letter-spacing: 1.5;
+}
+
+.workingHours,
+.contactInfo {
+  padding-bottom: 30px;
 }
 
 .ourRestaurants {
