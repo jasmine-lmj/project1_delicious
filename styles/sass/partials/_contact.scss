@@ -1,0 +1,67 @@
+.contact {
+    display:flex;
+}
+
+.contactContainer {
+    width: 60%;
+    padding-top:20px;
+    padding-bottom: 30px;
+}
+
+.contactBoxLeft{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    margin-left:auto;
+    padding-top:40px;
+    padding-right:20px;
+
+    input,
+    textarea {
+            border: none;
+            background-color: $quaternary;
+            padding-bottom: 10px;
+            padding-left:5px;
+            margin-bottom: 10px;
+            font-family: $secondaryFont;
+            font-size:12px;
+            line-height: 1.5;
+        }
+
+    textarea{
+        resize:none;
+    }
+}
+
+.contactButton{
+    align-self: flex-start;
+    border:none;
+    background-color: transparent;
+    color:$tertiary;
+    padding-left: 0;
+}
+
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top:30px;
+    padding-bottom: 30px;
+    
+}
+
+.nameFields{
+    display:flex;
+    justify-content: space-between;
+}
+
+.name,
+.email{
+    width:48%;
+}
+
+.contactRightColumn {
+    width: 40%;
+    background-color: $quaternary;
+}

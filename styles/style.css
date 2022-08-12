@@ -381,6 +381,11 @@ header .nav .home {
   color: #64A604;
 }
 
+.contactHeader {
+  background-image: url(../assets/contact-1.jpeg);
+  height: 50vh;
+}
+
 .recipeContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -431,7 +436,7 @@ header .nav .home {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: rgba(153, 153, 153, 0.2);
+  background-color: #F6F6F6;
 }
 .recipeContainer .recipe4 .itemContainer {
   display: -webkit-box;
@@ -462,6 +467,89 @@ header .nav .home {
 .recipeContainer .recipe4 .itemContainer .itemIcon {
   font-size: 1.1rem;
   padding-right: 20px;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contactContainer {
+  width: 60%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.contactBoxLeft {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: auto;
+  padding-top: 40px;
+  padding-right: 20px;
+}
+.contactBoxLeft input,
+.contactBoxLeft textarea {
+  border: none;
+  background-color: #F6F6F6;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  font-family: "Lora", serif;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.contactBoxLeft textarea {
+  resize: none;
+}
+
+.contactButton {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  border: none;
+  background-color: transparent;
+  color: #64A604;
+  padding-left: 0;
+}
+
+.contactForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.nameFields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.name,
+.email {
+  width: 48%;
+}
+
+.contactRightColumn {
+  width: 40%;
+  background-color: #F6F6F6;
 }
 
 .ourRestaurants {
