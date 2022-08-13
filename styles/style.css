@@ -329,7 +329,7 @@ hr {
 }
 
 section {
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
 header {
@@ -621,6 +621,24 @@ header .nav .home {
   color: grey;
   font-size: 12px;
   text-transform: none;
+}
+
+.author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.authorIntro {
+  background-color: #F6F6F6;
+  margin-left: 20px;
+  padding: 30px;
+}
+.authorIntro p {
+  line-height: 24px;
 }
 
 .ourRestaurants {

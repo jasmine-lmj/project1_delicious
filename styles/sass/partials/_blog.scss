@@ -28,3 +28,20 @@
     font-size:12px;
     text-transform: none;
 }
+
+.author{
+    display:flex;
+    justify-content: space-between;
+    // margin-top:20px;
+
+}
+
+.authorIntro{
+    background-color: $quaternary;
+    margin-left:20px;
+    padding:30px ;
+
+    p{
+        line-height:24px;
+    }
+}
