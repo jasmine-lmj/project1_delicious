@@ -387,6 +387,12 @@ header .nav .home {
   height: 50vh;
 }
 
+.blogHeader {
+  background-image: url(../assets/blog-1.jpeg);
+  background-size: cover;
+  height: 50vh;
+}
+
 .recipeContainer {
   display: -webkit-box;
   display: -ms-flexbox;
