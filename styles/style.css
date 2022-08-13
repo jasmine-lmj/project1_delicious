@@ -278,7 +278,9 @@ button {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -288,8 +290,9 @@ h2 {
   padding-bottom: 12px;
 }
 
+h6,
 p {
-  color: rgba(153, 153, 153, 0.7);
+  color: grey;
 }
 
 .wrapper {
@@ -589,6 +592,35 @@ header .nav .home {
 .workingHours,
 .contactInfo {
   padding-bottom: 30px;
+}
+
+.blog {
+  margin-top: 70px;
+}
+.blog p {
+  line-height: 24px;
+}
+.blog h4 {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.blog .fa-brands {
+  color: grey;
+  font-size: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.blogDivider {
+  border: 0.7px solid rgba(153, 153, 153, 0.7);
+  width: 100%;
+}
+
+.blogTagSpan {
+  font-family: "Raleway", sans-serif;
+  color: grey;
+  font-size: 12px;
+  text-transform: none;
 }
 
 .ourRestaurants {

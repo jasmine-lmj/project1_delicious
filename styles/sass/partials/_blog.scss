@@ -1,0 +1,30 @@
+.blog{
+    margin-top:70px;
+
+    p{
+        line-height: 24px;
+    }
+    h4{
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    .fa-brands{
+        color: $solidgrey;
+        font-size: 15px;
+        padding-right:10px;
+        padding-left:10px;
+    }
+}
+
+.blogDivider{
+    border: 0.7px solid $secondary;
+    width: 100%;
+}
+
+.blogTagSpan{
+    font-family: $primaryFont;
+    color:$solidgrey;
+    font-size:12px;
+    text-transform: none;
+}
