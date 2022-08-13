@@ -45,3 +45,32 @@
         line-height:24px;
     }
 }
+
+.relatedPosts{
+    h4{
+        padding:30px 0;
+    }
+}
+
+.postContainer{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.post {
+    width:calc(100% / 3);
+
+    img{
+        position:center;
+    }
+
+    h3{
+        padding-top:20px;
+    }
+
+    h6{
+        padding-top:10px;
+        padding-bottom:50px;
+    }
+}
