@@ -50,6 +50,10 @@
     h4{
         padding:30px 0;
     }
+
+    span{
+        color:$blacktwo;
+    }
 }
 
 .postContainer{
@@ -73,4 +77,19 @@
         padding-top:10px;
         padding-bottom:50px;
     }
+}
+
+.comment{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.commentContent{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    background-color: $quaternary;
+    padding-left: 10px;
+    margin-left:15px;
 }

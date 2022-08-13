@@ -644,6 +644,9 @@ header .nav .home {
 .relatedPosts h4 {
   padding: 30px 0;
 }
+.relatedPosts span {
+  color: #333;
+}
 
 .postContainer {
   display: -webkit-box;
@@ -666,6 +669,30 @@ header .nav .home {
 .post h6 {
   padding-top: 10px;
   padding-bottom: 50px;
+}
+
+.comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.commentContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  background-color: #F6F6F6;
+  padding-left: 10px;
+  margin-left: 15px;
 }
 
 .ourRestaurants {
