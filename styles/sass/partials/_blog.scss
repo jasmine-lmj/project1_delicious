@@ -1,14 +1,20 @@
+.blogPage{
+    color:$tertiary;
+}
+
 .blog{
     margin-top:70px;
-
-    p{
-        line-height: 24px;
+    h2{
+        padding-bottom: 0;
     }
+    
     h4{
         padding-bottom: 15px;
         padding-top: 15px;
     }
-
+    p {
+        line-height: 24px;
+    }
     .fa-brands{
         color: $solidgrey;
         font-size: 15px;
@@ -32,8 +38,6 @@
 .author{
     display:flex;
     justify-content: space-between;
-    // margin-top:20px;
-
 }
 
 .authorIntro{
@@ -63,7 +67,7 @@
 }
 
 .post {
-    width:calc(100% / 3);
+    width:calc((100% / 3) - 5px);
 
     img{
         position:center;

@@ -7,65 +7,70 @@ footer{
         padding-top: 70px;
         padding-bottom: 70px;
         align-items: flex-start;
-
         h1 {
             color:$tertiary;
         }
-
         h4{
             color:$solidWhite;
             padding-bottom:18px ;
         }
-
         p{
-            line-height: 1.25rem;
-            
-        }
-        .footerContainer{
-            width:28%;
-        }
-
-        .footerdivider{
-            border:0.7px solid $secondary;
-            width:100%;
-        }
-
-        .form{
-            display:flex;
-            padding-bottom: 20px;
-
-            .inputArea{
-                background-color:#535353 ;
-                border:none;
-                font-family: $secondaryFont;
-                color:$secondary;
-                height:42px;
-            }
-
-            .subscribe{
-                height:42px;
-                width:42px;
-                padding: 0;
-            }
-        }
-        .fa-brands{
-            color:$solidWhite;
-            padding:10px;
-        }
+            line-height: 1.25rem; 
+        } 
     }
-    .footerCopyright{
-        background-color:$primary ;
-        
-        .wrapper{
-            
-            padding:0;
-        }
-        
-        .polar{
-            color:$tertiary;
-            text-transform: uppercase;
-        }
+}
 
+.footerContainer {
+    width: 28%;
+}
+
+.footerdivider {
+    border: 0.7px solid $secondary;
+    width: 100%;
+}
+
+.address1{
+    margin-bottom:0;
+}
+
+.address2{
+    margin-top:0;
+}
+
+.fa-brands {
+    color: $solidWhite;
+    padding: 10px;
+}
+
+.inputArea {
+    background-color: #535353;
+    border: none;
+    font-family: $secondaryFont;
+    color: $secondary;
+    height: 42px;
+}
+
+.form {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.subscribe {
+    height: 42px;
+    width: 42px;
+    padding: 0;
+}
+
+
+.footerCopyright {
+    background-color: $primary ;
+    .wrapper {
+        padding: 0;
     }
+}
 
+.polar {
+    font-family: $primaryFont;
+    color: $tertiary;
+    text-transform: uppercase;
 }

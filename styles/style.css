@@ -385,7 +385,7 @@ header .nav .navContainer .counter {
   right: -8px;
   top: 7px;
 }
-header .nav .home {
+header .nav .homePage {
   color: #64A604;
 }
 
@@ -458,9 +458,15 @@ header .nav .home {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 80%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  width: 90%;
+  height: 90%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .recipeContainer .recipe4 .itemContainer .item {
   width: 48%;
@@ -487,6 +493,10 @@ header .nav .home {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.contactPage {
+  color: #64A604;
 }
 
 .contactLeftColumn {
@@ -596,15 +606,22 @@ header .nav .home {
   padding-bottom: 30px;
 }
 
+.blogPage {
+  color: #64A604;
+}
+
 .blog {
   margin-top: 70px;
 }
-.blog p {
-  line-height: 24px;
+.blog h2 {
+  padding-bottom: 0;
 }
 .blog h4 {
   padding-bottom: 15px;
   padding-top: 15px;
+}
+.blog p {
+  line-height: 24px;
 }
 .blog .fa-brands {
   color: grey;
@@ -660,7 +677,7 @@ header .nav .home {
 }
 
 .post {
-  width: 33.3333333333%;
+  width: calc(33.3333333333% - 5px);
 }
 .post img {
   position: center;
@@ -823,6 +840,9 @@ header .nav .home {
   padding-bottom: 100px;
   margin-top: 0;
 }
+.clientReview h2 {
+  padding-bottom: 0;
+}
 .clientReview .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -836,6 +856,7 @@ header .nav .home {
           align-items: center;
 }
 .clientReview .wrapper .clientContent {
+  margin-top: 20px;
   position: relative;
 }
 .clientReview .wrapper .fa-quote-left,
@@ -906,42 +927,59 @@ footer .wrapper h4 {
 footer .wrapper p {
   line-height: 1.25rem;
 }
-footer .wrapper .footerContainer {
+
+.footerContainer {
   width: 28%;
 }
-footer .wrapper .footerdivider {
+
+.footerdivider {
   border: 0.7px solid rgba(153, 153, 153, 0.7);
   width: 100%;
 }
-footer .wrapper .form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-bottom: 20px;
+
+.address1 {
+  margin-bottom: 0;
 }
-footer .wrapper .form .inputArea {
+
+.address2 {
+  margin-top: 0;
+}
+
+.fa-brands {
+  color: #f6f6f6;
+  padding: 10px;
+}
+
+.inputArea {
   background-color: #535353;
   border: none;
   font-family: "Lora", serif;
   color: rgba(153, 153, 153, 0.7);
   height: 42px;
 }
-footer .wrapper .form .subscribe {
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.subscribe {
   height: 42px;
   width: 42px;
   padding: 0;
 }
-footer .wrapper .fa-brands {
-  color: #f6f6f6;
-  padding: 10px;
-}
-footer .footerCopyright {
+
+.footerCopyright {
   background-color: #2e2e2e;
 }
-footer .footerCopyright .wrapper {
+.footerCopyright .wrapper {
   padding: 0;
 }
-footer .footerCopyright .polar {
+
+.polar {
+  font-family: "Raleway", sans-serif;
   color: #64A604;
   text-transform: uppercase;
 }
