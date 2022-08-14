@@ -20,17 +20,14 @@
     textarea {
             border: none;
             background-color: $quaternary;
-            padding-bottom: 10px;
+            padding-top:7px;
+            padding-bottom: 7px;
             padding-left:5px;
             margin-bottom: 10px;
             font-family: $secondaryFont;
             font-size:12px;
             line-height: 1.5;
         }
-
-    textarea{
-        resize:none;
-    }
 }
 
 .contactButton{

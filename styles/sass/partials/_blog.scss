@@ -116,6 +116,44 @@
     background-color: $quaternary;
     padding: 15px 0 10px 10px;
     margin-left:15px;
-
     
+    // need to do the triangel for comment box
+}
+
+.commentForm{
+    h6{
+        margin-top:10px;
+        color:$secondary;
+    }
+}
+
+.blogForm{
+    display:flex;
+    flex-direction: column;
+    margin-top:20px;
+
+    input,
+    textarea{
+        border:1px solid $secondary;
+        padding: 7px 0 7px 8px;
+        margin-bottom: 5px;
+        font-family: $secondaryFont;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    button{
+        align-self: flex-start;
+        margin-top:5px;
+    }
+}
+
+.commentRow1{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    input{
+        width:calc( ( 100% / 3) - 10px );
+    }
 }

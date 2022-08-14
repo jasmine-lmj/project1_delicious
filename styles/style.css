@@ -332,6 +332,10 @@ section {
   padding-bottom: 2rem;
 }
 
+textarea {
+  resize: none;
+}
+
 header {
   margin-top: 0;
   background-image: url("../assets/home-1.jpeg");
@@ -508,15 +512,13 @@ header .nav .home {
 .contactBoxLeft textarea {
   border: none;
   background-color: #F6F6F6;
-  padding-bottom: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   padding-left: 5px;
   margin-bottom: 10px;
   font-family: "Lora", serif;
   font-size: 12px;
   line-height: 1.5;
-}
-.contactBoxLeft textarea {
-  resize: none;
 }
 
 .contactButton {
@@ -713,6 +715,49 @@ header .nav .home {
   background-color: #F6F6F6;
   padding: 15px 0 10px 10px;
   margin-left: 15px;
+}
+
+.commentForm h6 {
+  margin-top: 10px;
+  color: rgba(153, 153, 153, 0.7);
+}
+
+.blogForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+}
+.blogForm input,
+.blogForm textarea {
+  border: 1px solid rgba(153, 153, 153, 0.7);
+  padding: 7px 0 7px 8px;
+  margin-bottom: 5px;
+  font-family: "Lora", serif;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.blogForm button {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-top: 5px;
+}
+
+.commentRow1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+}
+.commentRow1 input {
+  width: calc(33.3333333333% - 10px);
 }
 
 .ourRestaurants {
