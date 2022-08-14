@@ -679,6 +679,26 @@ header .nav .home {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 20px;
+  padding-top: 20px;
+}
+.comment h5 {
+  text-transform: none;
+}
+.comment h6 {
+  color: #333;
+}
+.comment span,
+.comment p {
+  font-family: "Lora", serif;
+  color: grey;
+}
+.comment p {
+  line-height: 24px;
+}
+
+.commentPic {
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .commentContent {
@@ -691,7 +711,7 @@ header .nav .home {
           flex-direction: column;
   width: 100%;
   background-color: #F6F6F6;
-  padding-left: 10px;
+  padding: 15px 0 10px 10px;
   margin-left: 15px;
 }
 

@@ -83,6 +83,30 @@
     display:flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    padding-top:20px;
+    
+
+    h5{
+        text-transform: none;   
+    }
+    h6 {
+        color: $blacktwo;
+    }
+
+    span,
+    p {
+        font-family: $secondaryFont;
+        color: $solidgrey;
+    }
+
+    p{
+        line-height: 24px;
+    }
+}
+
+.commentPic{
+    width:2.5rem;
+    height:2.5rem;
 }
 
 .commentContent{
@@ -90,6 +114,8 @@
     flex-direction: column;
     width:100%;
     background-color: $quaternary;
-    padding-left: 10px;
+    padding: 15px 0 10px 10px;
     margin-left:15px;
+
+    
 }
