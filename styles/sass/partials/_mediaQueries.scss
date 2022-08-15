@@ -1,0 +1,108 @@
+// tablet design
+@media (max-width:768px){
+    
+    // homepage styling
+    header{
+        background-position: center;
+        height:40vh;
+    }
+    .navContainer{
+        display:none;
+    }
+    .hamburger {
+        display: inline-block;
+        font-size: 1.25rem;
+    }
+
+    .recipeContainer{
+        flex-direction: column;
+    }
+
+    .recipe{
+        width:100%;
+    }
+
+    .recipe1{
+        padding-top:50px;
+        padding-bottom: 50px;
+    }
+
+    .fa-quote-left{
+        left: 5rem;
+    }
+    .fa-quote-right {
+        right:5rem;
+    }
+
+}
+
+
+// Mobile design 
+@media (max-width:480px) {
+
+    // homepage styling
+    .recipe4{
+        padding-top:20px;
+    }
+
+    .imgContainer{
+        width:90%;
+        display:flex;
+        flex-direction: column;
+        .badge{
+            width:40%;
+            right:-1rem;
+        }
+    }
+
+    .ourRestaurants{
+        p{
+            width:60%;
+        }
+    }
+    .galleryContainer{
+        flex-direction: column;
+
+        li{
+            width:100%;
+        }
+    }
+    
+    .fa-quote-left {
+        left: 3rem;
+    }
+
+    .fa-quote-right {
+        right: 2.5rem;
+    }
+
+    footer{
+        .wrapper{
+            flex-direction: column;
+            align-items: center;
+
+            h4{
+                padding-top:15px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+
+    .footerContainer{
+        width:100%;
+        text-align:center;
+    }
+
+    .form{
+        justify-content: flex-start;
+        width:100%;
+    }
+
+    .inputArea{
+        width:17rem;
+    }
+
+    .subscribe{
+        width:6rem;
+    }
+}
