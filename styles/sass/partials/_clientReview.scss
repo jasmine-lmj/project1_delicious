@@ -3,38 +3,12 @@
     padding-top: 100px;
     padding-bottom: 100px;
     margin-top: 0;
-
-    h2{
-        padding-bottom: 0;
-    }
-
+    
     .wrapper{
         display:flex;
         flex-direction: column;
         align-items: center;
 
-        .clientContent{
-            margin-top:20px;
-            position:relative;
-        }
-
-        .fa-quote-left,
-        .fa-quote-right {
-            color: rgba($solidWhite, 0.8);
-            font-size:2rem;
-        }
-
-        .fa-quote-left{
-            position:absolute;
-            left:9rem;
-            top:-1rem;
-
-        }
-        .fa-quote-right {
-            position: absolute;
-            right:9rem;
-            bottom:-1rem;
-        }
         p{
             width:60%;
             text-align: center;
@@ -42,26 +16,53 @@
             color:$primary;
         }
     }
-
-    .angleContainer{
-        display:flex;
-        width:1.8rem;
-        justify-content: space-between;
-        padding-top:30px;
-
-        .fa-angle-left,
-        .fa-angle-right{
-            font-size:1.25em;
-            
-        }
-        
-        .fa-angle-right{
-            color: $solidWhite;
-        }
-
-        .fa-angle-left{
-            color:rgba($solidWhite,0.8);
-        }
-
+    h2 {
+        padding-bottom: 0;
     }
 }
+
+.clientContent {
+    margin-top: 20px;
+    position: relative;
+}
+
+.fa-quote-left,
+.fa-quote-right {
+    color: rgba($solidWhite, 0.8);
+    font-size: 2rem;
+}
+
+.fa-quote-left {
+    position: absolute;
+    left: 9rem;
+    top: -1rem;
+
+}
+
+.fa-quote-right {
+    position: absolute;
+    right: 9rem;
+    bottom: -1rem;
+}
+
+.angleContainer {
+    display: flex;
+    width: 1.8rem;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.fa-angle-left,
+.fa-angle-right {
+    font-size: 1.25em;
+
+}
+
+.fa-angle-right {
+    color: $solidWhite;
+}
+
+.fa-angle-left {
+    color: rgba($solidWhite, 0.8);
+}
+

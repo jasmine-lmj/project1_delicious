@@ -4,47 +4,46 @@ header{
     height:100vh;
     background-repeat: no-repeat;
     background-size: cover;
+}
 
-    .nav{
-        padding:20px;
-        display:flex;
-        justify-content: space-between;
-        align-items: center;   
-        
-        h1{
-            margin-left: 30px;
-        }
+.nav{
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;   
+    
+    h1{
+        margin-left: 30px;
+    } 
+}
 
-        .navContainer{
-            width:45%;
-            display:flex;
-            justify-content: space-around;
-            align-items: center;
-            
-            .counterParent{
-                position: relative;
-            }
+.navContainer {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
-            .counter{
-                width:11px;
-                height:11px;
-                border-radius: 50%;
-                background-color: $tertiary;
-                font-family: $primaryFont;
-                font-size: 8px;
-                text-align: center;
-                color:$solidWhite;
-                position:absolute;
-                right:-8px;
-                top:7px;
+.counterParent {
+    position: relative;
+}
 
-            }
-        }
-        
-        .homePage{
-            color: $tertiary;
-        }
-    }
+.counter {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: $tertiary;
+    font-family: $primaryFont;
+    font-size: 8px;
+    text-align: center;
+    color: $solidWhite;
+    position: absolute;
+    right: -8px;
+    top: 7px;
+}
+
+.homePage {
+    color: $tertiary;
 }
 
 .contactHeader{

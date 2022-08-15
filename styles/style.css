@@ -343,7 +343,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
-header .nav {
+
+.nav {
   padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -355,10 +356,11 @@ header .nav {
       -ms-flex-align: center;
           align-items: center;
 }
-header .nav h1 {
+.nav h1 {
   margin-left: 30px;
 }
-header .nav .navContainer {
+
+.navContainer {
   width: 45%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -369,10 +371,12 @@ header .nav .navContainer {
       -ms-flex-align: center;
           align-items: center;
 }
-header .nav .navContainer .counterParent {
+
+.counterParent {
   position: relative;
 }
-header .nav .navContainer .counter {
+
+.counter {
   width: 11px;
   height: 11px;
   border-radius: 50%;
@@ -385,7 +389,8 @@ header .nav .navContainer .counter {
   right: -8px;
   top: 7px;
 }
-header .nav .homePage {
+
+.homePage {
   color: #64A604;
 }
 
@@ -407,13 +412,15 @@ header .nav .homePage {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.recipeContainer .recipe {
-  width: 50%;
-}
 .recipeContainer img {
   width: 100%;
 }
-.recipeContainer .recipe1 {
+
+.recipe {
+  width: 50%;
+}
+
+.recipe1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -428,7 +435,7 @@ header .nav .homePage {
       -ms-flex-align: center;
           align-items: center;
 }
-.recipeContainer .recipe1 h2 {
+.recipe1 h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -436,11 +443,12 @@ header .nav .homePage {
       -ms-flex-align: center;
           align-items: center;
 }
-.recipeContainer .recipe1 p {
+.recipe1 p {
   width: 60%;
   text-align: center;
 }
-.recipeContainer .recipe4 {
+
+.recipe4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -452,7 +460,8 @@ header .nav .homePage {
           align-items: center;
   background-color: #F6F6F6;
 }
-.recipeContainer .recipe4 .itemContainer {
+
+.itemContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -468,7 +477,8 @@ header .nav .homePage {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.recipeContainer .recipe4 .itemContainer .item {
+
+.item {
   width: 48%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -481,10 +491,11 @@ header .nav .homePage {
           align-items: flex-start;
   padding-bottom: 20px;
 }
-.recipeContainer .recipe4 .itemContainer .item p {
+.item p {
   line-height: 1rem;
 }
-.recipeContainer .recipe4 .itemContainer .itemIcon {
+
+.itemIcon {
   font-size: 1.1rem;
   padding-right: 20px;
 }
@@ -800,15 +811,6 @@ header .nav .homePage {
   width: 80%;
   margin: 0 auto;
 }
-.ourRestaurants .imgContainer {
-  padding-top: 50px;
-  position: relative;
-}
-.ourRestaurants .imgContainer .badge {
-  position: absolute;
-  top: -3rem;
-  right: -3rem;
-}
 .ourRestaurants h2 {
   padding-top: 50px;
 }
@@ -817,20 +819,31 @@ header .nav .homePage {
   text-align: center;
 }
 
+.imgContainer {
+  padding-top: 50px;
+  position: relative;
+}
+.imgContainer .badge {
+  position: absolute;
+  top: -3rem;
+  right: -3rem;
+}
+
 .gallery {
   padding-bottom: 0;
 }
-.gallery .galleryContainer {
+
+.galleryContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.gallery .galleryContainer li {
+.galleryContainer li {
   width: 33.3333333333%;
 }
-.gallery .galleryContainer li img {
+.galleryContainer li img {
   width: 100%;
 }
 
@@ -839,9 +852,6 @@ header .nav .homePage {
   padding-top: 100px;
   padding-bottom: 100px;
   margin-top: 0;
-}
-.clientReview h2 {
-  padding-bottom: 0;
 }
 .clientReview .wrapper {
   display: -webkit-box;
@@ -855,32 +865,40 @@ header .nav .homePage {
       -ms-flex-align: center;
           align-items: center;
 }
-.clientReview .wrapper .clientContent {
-  margin-top: 20px;
-  position: relative;
-}
-.clientReview .wrapper .fa-quote-left,
-.clientReview .wrapper .fa-quote-right {
-  color: rgba(246, 246, 246, 0.8);
-  font-size: 2rem;
-}
-.clientReview .wrapper .fa-quote-left {
-  position: absolute;
-  left: 9rem;
-  top: -1rem;
-}
-.clientReview .wrapper .fa-quote-right {
-  position: absolute;
-  right: 9rem;
-  bottom: -1rem;
-}
 .clientReview .wrapper p {
   width: 60%;
   text-align: center;
   margin: 0 auto;
   color: #2e2e2e;
 }
-.clientReview .angleContainer {
+.clientReview h2 {
+  padding-bottom: 0;
+}
+
+.clientContent {
+  margin-top: 20px;
+  position: relative;
+}
+
+.fa-quote-left,
+.fa-quote-right {
+  color: rgba(246, 246, 246, 0.8);
+  font-size: 2rem;
+}
+
+.fa-quote-left {
+  position: absolute;
+  left: 9rem;
+  top: -1rem;
+}
+
+.fa-quote-right {
+  position: absolute;
+  right: 9rem;
+  bottom: -1rem;
+}
+
+.angleContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -890,14 +908,17 @@ header .nav .homePage {
           justify-content: space-between;
   padding-top: 30px;
 }
-.clientReview .angleContainer .fa-angle-left,
-.clientReview .angleContainer .fa-angle-right {
+
+.fa-angle-left,
+.fa-angle-right {
   font-size: 1.25em;
 }
-.clientReview .angleContainer .fa-angle-right {
+
+.fa-angle-right {
   color: #f6f6f6;
 }
-.clientReview .angleContainer .fa-angle-left {
+
+.fa-angle-left {
   color: rgba(246, 246, 246, 0.8);
 }
 

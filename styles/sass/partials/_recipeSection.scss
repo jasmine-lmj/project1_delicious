@@ -1,64 +1,66 @@
 .recipeContainer{
     display:flex;
     flex-wrap: wrap;
-
-    .recipe{
-        width:50%;
-    }
-
+    
     img{
         width:100%;
+    } 
+}
+
+
+.recipe {
+    width: 50%;
+}
+
+.recipe1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        display: flex;
+        align-items: center;
     }
 
-    .recipe1{
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        h2{
-            display:flex;
-            align-items: center;
-        }
-    
-        p{
-            width:60%;
-            text-align: center;
-        }
-    }
-
-    .recipe4{
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        background-color:$quaternary;
-        
-        .itemContainer{
-            display:flex;
-            flex-wrap:wrap;
-            justify-content: space-around;
-            width:90%;
-            height:90%;
-            justify-content: center;
-            padding-top:1rem;
-            padding-bottom:1rem;
-
-            .item{
-                width:48%;
-                display:flex;
-                justify-content: space-between;
-                align-items: flex-start;
-                padding-bottom:20px;
-
-                p{
-                    line-height: 1rem;
-                }
-            }
-
-            .itemIcon{
-                font-size: 1.1rem;
-                padding-right: 20px;
-            }
-        }
+    p {
+        width: 60%;
+        text-align: center;
     }
 }
+
+.recipe4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $quaternary;
+}
+
+.itemContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    height: 90%;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.item {
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 20px;
+
+    p {
+        line-height: 1rem;
+    }
+}
+
+.itemIcon {
+    font-size: 1.1rem;
+    padding-right: 20px;
+}
+
