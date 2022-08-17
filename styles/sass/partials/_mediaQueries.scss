@@ -36,8 +36,25 @@
 
     // No specific blog page styling needed
     
-
-
+    // contact page styling
+    .contact{
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .contactLeftColumn,
+    .contactRightColumn{
+        width:100%;
+    }
+    .contactLeftColumn{
+        padding-bottom: 0;
+    }
+    
+    .contactBoxLeft{
+        width:100%;
+        padding:40px;
+        margin:0;
+    }
 
 }
 
@@ -150,4 +167,6 @@
             justify-content: center;
         }
     }
+
+    // no specific contact page styling needed
 }
