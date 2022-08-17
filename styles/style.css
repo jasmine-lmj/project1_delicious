@@ -632,8 +632,8 @@ header {
   padding-bottom: 0;
 }
 .blog h4 {
-  padding-bottom: 15px;
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 .blog p {
   line-height: 24px;
@@ -696,6 +696,7 @@ header {
 }
 .post img {
   position: center;
+  width: 98%;
 }
 .post h3 {
   padding-top: 20px;
@@ -745,7 +746,7 @@ header {
           flex-direction: column;
   width: 100%;
   background-color: #F6F6F6;
-  padding: 15px 0 10px 10px;
+  padding: 10px;
   margin-left: 15px;
 }
 
@@ -1105,5 +1106,47 @@ footer .wrapper p {
   }
   .subscribe {
     width: 6rem;
+  }
+  .blog h4 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  .author {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .authorIntro {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .postContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .post {
+    width: 100%;
+  }
+  .post h6 {
+    padding-bottom: 20px;
+  }
+  .blogForm button {
+    -ms-flex-item-align: stretch;
+        align-self: stretch;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }

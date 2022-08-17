@@ -34,6 +34,11 @@
         right:5rem;
     }
 
+    // No specific blog page styling needed
+    
+
+
+
 }
 
 
@@ -104,5 +109,45 @@
 
     .subscribe{
         width:6rem;
+    }
+
+    // blog page styling
+
+    .blog{
+        
+        h4{
+            padding-top:10px;
+            padding-bottom:5px;
+        }
+    }
+
+    .author{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .authorIntro{
+        margin-left:0;
+        margin-top:20px;
+    }
+    .postContainer{
+        flex-direction: column;
+    }
+
+    .post{
+        width:100%;
+        
+        h6{
+            padding-bottom:20px;
+        }
+    }
+
+    .blogForm{
+        button{
+            align-self:stretch;
+            display:flex;
+            justify-content: center;
+        }
     }
 }
