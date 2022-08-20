@@ -980,19 +980,20 @@ footer .wrapper p {
   padding: 10px;
 }
 
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 20px;
+}
+
 .inputArea {
   background-color: #535353;
   border: none;
   font-family: "Lora", serif;
   color: rgba(153, 153, 153, 0.7);
   height: 42px;
-}
-
-.form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-bottom: 20px;
+  width: 90%;
 }
 
 .subscribe {

@@ -42,18 +42,22 @@ footer{
     padding: 10px;
 }
 
+.form {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+
 .inputArea {
     background-color: #535353;
     border: none;
     font-family: $secondaryFont;
     color: $secondary;
     height: 42px;
+    width: 90%;
 }
 
-.form {
-    display: flex;
-    padding-bottom: 20px;
-}
+
 
 .subscribe {
     height: 42px;
