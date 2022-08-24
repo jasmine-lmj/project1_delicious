@@ -121,8 +121,15 @@
     background-color: $quaternary;
     padding: 10px;
     margin-left:15px;
-    
-    // need to do the triangel for comment box
+}
+
+.fa-caret-left{
+    position:relative;
+    display:inline;
+    top:1rem;
+    left:0.9rem;
+    color:$quaternary;
+    font-size:large;
 }
 
 .commentForm{

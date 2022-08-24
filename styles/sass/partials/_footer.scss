@@ -65,6 +65,9 @@ footer{
     padding: 0;
 }
 
+::placeholder{
+    font-family: $secondaryFont;
+}
 
 .footerCopyright {
     background-color: $primary ;

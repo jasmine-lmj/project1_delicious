@@ -1,3 +1,24 @@
+// bigger screen
+@media (max-width:1200px){
+    // homepage styling
+    .recipeContainer {
+            flex-direction: column;
+        }
+    
+    .recipe {
+        width: 100%;
+    }
+
+    .recipe1 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .recipe4{
+        padding-top:50px;
+    }
+}
+
 // tablet design
 @media (max-width:768px){
     

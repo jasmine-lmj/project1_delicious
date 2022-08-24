@@ -325,7 +325,7 @@ button {
 hr {
   border-style: none;
   border-bottom: 3px solid #64A604;
-  width: 2.2rem;
+  width: 2.4rem;
 }
 
 section {
@@ -462,7 +462,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #F6F6F6;
+  background-color: #EFEFEF;
 }
 
 .itemContainer {
@@ -478,8 +478,8 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .item {
@@ -493,10 +493,10 @@ header {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  padding-bottom: 20px;
+  padding-bottom: 0.5rem;
 }
 .item p {
-  line-height: 1rem;
+  line-height: 0.8rem;
 }
 
 .itemIcon {
@@ -536,7 +536,7 @@ header {
 .contactBoxLeft input,
 .contactBoxLeft textarea {
   border: none;
-  background-color: #F6F6F6;
+  background-color: #EFEFEF;
   padding-top: 7px;
   padding-bottom: 7px;
   padding-left: 5px;
@@ -586,7 +586,7 @@ header {
 
 .contactRightColumn {
   width: 40%;
-  background-color: #F6F6F6;
+  background-color: #EFEFEF;
   font-family: "Lora", serif;
 }
 
@@ -671,7 +671,7 @@ header {
 }
 
 .authorIntro {
-  background-color: #F6F6F6;
+  background-color: #EFEFEF;
   margin-left: 20px;
   padding: 30px;
 }
@@ -749,9 +749,18 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  background-color: #F6F6F6;
+  background-color: #EFEFEF;
   padding: 10px;
   margin-left: 15px;
+}
+
+.fa-caret-left {
+  position: relative;
+  display: inline;
+  top: 1rem;
+  left: 0.9rem;
+  color: #EFEFEF;
+  font-size: large;
 }
 
 .commentForm h6 {
@@ -1002,6 +1011,26 @@ footer .wrapper p {
   padding: 0;
 }
 
+::-webkit-input-placeholder {
+  font-family: "Lora", serif;
+}
+
+::-moz-placeholder {
+  font-family: "Lora", serif;
+}
+
+:-ms-input-placeholder {
+  font-family: "Lora", serif;
+}
+
+::-ms-input-placeholder {
+  font-family: "Lora", serif;
+}
+
+::placeholder {
+  font-family: "Lora", serif;
+}
+
 .footerCopyright {
   background-color: #2e2e2e;
 }
@@ -1015,6 +1044,24 @@ footer .wrapper p {
   text-transform: uppercase;
 }
 
+@media (max-width: 1200px) {
+  .recipeContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .recipe {
+    width: 100%;
+  }
+  .recipe1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .recipe4 {
+    padding-top: 50px;
+  }
+}
 @media (max-width: 768px) {
   header {
     background-position: center;
