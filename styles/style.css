@@ -636,8 +636,8 @@ header {
   padding-bottom: 0;
 }
 .blog h4 {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 .blog p {
   line-height: 24px;
@@ -649,13 +649,18 @@ header {
   padding-left: 10px;
 }
 
+.tags {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
 .blogDivider {
   border: 0.7px solid rgba(153, 153, 153, 0.7);
   width: 100%;
 }
 
 .blogTagSpan {
-  font-family: "Raleway", sans-serif;
+  font-family: "Lora", serif;
   color: grey;
   font-size: 12px;
   text-transform: none;
@@ -750,7 +755,7 @@ header {
           flex-direction: column;
   width: 100%;
   background-color: #EFEFEF;
-  padding: 10px;
+  padding: 20px;
   margin-left: 15px;
 }
 
@@ -780,7 +785,7 @@ header {
 }
 .blogForm input,
 .blogForm textarea {
-  border: 1px solid rgba(153, 153, 153, 0.7);
+  border: 1px solid #EFEFEF;
   padding: 7px 0 7px 8px;
   margin-bottom: 5px;
   font-family: "Lora", serif;
