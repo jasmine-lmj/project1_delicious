@@ -1256,3 +1256,61 @@ footer .wrapper p {
             justify-content: center;
   }
 }
+@media (max-width: 320px) {
+  .nav h1 {
+    margin-left: 0;
+  }
+  .recipe1 p {
+    width: 90%;
+  }
+  .item {
+    width: 100%;
+  }
+  .imgContainer {
+    padding-top: 0;
+  }
+  .imgContainer .badge {
+    position: static;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+  }
+  .ourRestaurants {
+    margin-top: 20px;
+  }
+  .ourRestaurants P {
+    width: 90%;
+  }
+  .clientReview {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .clientReview .wrapper p {
+    width: 80%;
+  }
+  .fa-quote-left {
+    left: 0.3rem;
+  }
+  .fa-quote-right {
+    right: 0.3rem;
+  }
+  footer .wrapper {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .footerCopyright .wrapper p {
+    text-align: center;
+    width: 75%;
+  }
+  .contactForm {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .contactBoxLeft {
+    padding: 20px 40px;
+  }
+  .contactBoxRight {
+    width: 90%;
+    padding-left: 40px;
+  }
+}
