@@ -1313,4 +1313,7 @@ footer .wrapper p {
     width: 90%;
     padding-left: 40px;
   }
+  .blog {
+    margin-top: 10px;
+  }
 }
