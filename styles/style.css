@@ -305,6 +305,7 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  font-weight: 700;
 }
 
 a {
@@ -320,6 +321,7 @@ button {
   border: none;
   padding: 15px 30px;
   color: #f6f6f6;
+  font-weight: 700;
 }
 
 hr {
@@ -530,7 +532,7 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-left: auto;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-right: 20px;
 }
 .contactBoxLeft input,
@@ -567,7 +569,7 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 30px;
 }
 
@@ -939,7 +941,7 @@ header {
 
 .fa-quote-left {
   position: absolute;
-  left: 9rem;
+  left: 8rem;
   top: -1rem;
 }
 
@@ -1073,28 +1075,11 @@ footer .wrapper p {
 
 .polar {
   font-family: "Raleway", sans-serif;
+  font-weight: 300;
   color: #64A604;
   text-transform: uppercase;
 }
 
-@media (max-width: 1200px) {
-  .recipeContainer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .recipe {
-    width: 100%;
-  }
-  .recipe1 {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  .recipe4 {
-    padding-top: 50px;
-  }
-}
 @media (max-width: 768px) {
   header {
     background-position: center;
@@ -1142,7 +1127,8 @@ footer .wrapper p {
   .contactLeftColumn {
     padding-bottom: 0;
   }
-  .contactBoxLeft {
+  .contactBoxLeft,
+.contactBoxRight {
     width: 100%;
     padding: 40px;
     margin: 0;
@@ -1178,11 +1164,14 @@ footer .wrapper p {
   .galleryContainer li {
     width: 100%;
   }
+  .clientReview .wrapper p {
+    width: 80%;
+  }
   .fa-quote-left {
-    left: 3rem;
+    left: 1rem;
   }
   .fa-quote-right {
-    right: 2.5rem;
+    right: 1rem;
   }
   footer .wrapper {
     -webkit-box-orient: vertical;
@@ -1192,6 +1181,8 @@ footer .wrapper p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
   footer .wrapper h4 {
     padding-top: 15px;
@@ -1255,6 +1246,10 @@ footer .wrapper p {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .contactBoxRight {
+    width: 100%;
+    padding-left: 40px;
+  }
 }
 @media (max-width: 320px) {
   .nav h1 {
@@ -1310,7 +1305,7 @@ footer .wrapper p {
     padding: 20px 40px;
   }
   .contactBoxRight {
-    width: 90%;
+    width: 100%;
     padding-left: 40px;
   }
   .blog {

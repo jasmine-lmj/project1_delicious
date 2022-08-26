@@ -1,24 +1,3 @@
-// bigger screen
-@media (max-width:1200px){
-    // homepage styling
-    .recipeContainer {
-            flex-direction: column;
-        }
-    
-    .recipe {
-        width: 100%;
-    }
-
-    .recipe1 {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    
-    .recipe4{
-        padding-top:50px;
-    }
-}
-
 // tablet design
 @media (max-width:768px){
     
@@ -71,11 +50,13 @@
         padding-bottom: 0;
     }
     
-    .contactBoxLeft{
+    .contactBoxLeft,
+    .contactBoxRight{
         width:100%;
         padding:40px;
         margin:0;
     }
+
 
 }
 
@@ -110,19 +91,27 @@
             width:100%;
         }
     }
-    
+    .clientReview{
+        .wrapper{
+            p{
+                width:80%;
+            }
+        }
+    }
     .fa-quote-left {
-        left: 3rem;
+        left: 1rem;
     }
 
     .fa-quote-right {
-        right: 2.5rem;
+        right: 1rem;
     }
 
     footer{
         .wrapper{
             flex-direction: column;
             align-items: center;
+            padding-top:30px;
+            padding-bottom:20px;
 
             h4{
                 padding-top:15px;
@@ -189,8 +178,16 @@
         }
     }
 
-    // no specific contact page styling needed
+    //  contact page styling 
+    .contactBoxRight{
+        width:100%;
+        padding-left:40px;
+    }
 }
+
+
+
+
 
 
 // smaller device
@@ -269,7 +266,7 @@
         padding:20px 40px;
     }
     .contactBoxRight{
-        width:90%;
+        width:100%;
         padding-left: 40px;
     }
 
