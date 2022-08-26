@@ -544,6 +544,7 @@ header {
   font-family: "Lora", serif;
   font-size: 12px;
   line-height: 1.5;
+  color: grey;
 }
 
 .contactButton {
@@ -614,11 +615,38 @@ header {
 }
 .contactDetails p {
   letter-spacing: 1.5;
+  line-height: 1.5;
 }
 
 .workingHours,
 .contactInfo {
   padding-bottom: 30px;
+}
+
+.mon {
+  color: grey;
+}
+
+.openTime {
+  font-family: "Lora", serif;
+  text-transform: none;
+  color: grey;
+}
+
+.notWorking {
+  font-family: "Lora";
+  font-style: italic;
+  color: rgba(153, 153, 153, 0.7);
+  letter-spacing: 0.01px;
+}
+
+.contactInfo p {
+  color: rgba(153, 153, 153, 0.7);
+}
+
+.contactInfop {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .dragonfruit {

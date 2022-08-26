@@ -31,6 +31,7 @@
             font-family: $secondaryFont;
             font-size:12px;
             line-height: 1.5;
+            color:$solidgrey;
         }
 }
 
@@ -86,6 +87,7 @@
     padding-bottom: 20px;
     p{
         letter-spacing: 1.5;
+        line-height: 1.5;
     }
 }
 
@@ -94,8 +96,34 @@
     padding-bottom: 30px;
 }
 
+.mon{
+    color:$solidgrey;
+}
+
+.openTime{
+    font-family: $secondaryFont;
+    text-transform: none;
+    color:$solidgrey;
+}
+
+.notWorking{
+    font-family: $tertiaryFont;
+    font-style:italic ;
+    color: $secondary;
+    letter-spacing: 0.01px;
+}
+
+.contactInfo{
+    p{
+        color:$secondary;
+    }
+}
+
+.contactInfop{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
 .dragonfruit{
     width:100%;
-    
-
 }
