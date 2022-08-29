@@ -28,10 +28,14 @@
     }
 
     .fa-quote-left{
-        left: 5rem;
+        left: 4rem;
     }
     .fa-quote-right {
         right:5rem;
+    }
+
+    .subscribe{
+        width:39px;
     }
 
     // No specific blog page styling needed
@@ -99,7 +103,7 @@
         }
     }
     .fa-quote-left {
-        left: 1rem;
+        left: 0.5rem;
     }
 
     .fa-quote-right {
@@ -193,6 +197,10 @@
 // smaller device
 @media (max-width:320px){
     // homepage design
+
+    .contactHeader{
+        height:40vh;
+    }
     .nav h1 {
             margin-left: 0;
     }
@@ -234,9 +242,13 @@
             }
         }
     }
+    .fa-quote-left,
+    .fa-quote-right{
+        font-size:large;
+        }
 
     .fa-quote-left{
-        left:0.3rem;
+        left:0.2rem;
     }
     .fa-quote-right{
         right:0.3rem;
@@ -252,7 +264,7 @@
         .wrapper{
             p{
                 text-align: center;
-                width:75%;
+                width:80%;
             }
         }
     }
